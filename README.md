@@ -26,6 +26,7 @@ Step 5:- In this, we will pass our parameters (ASG-Name,CesiredCapacity,MinimumC
 https://5tbkkuk676.execute-api.us-east-1.amazonaws.com/dev/resource?
 
 ```
+Curl Request  
 
 ```
 curl --location --request POST 'https://izoaehgcz1.execute-api.us-east-1.amazonaws.com/dev/resource?ASG-Name=testScaling&DesiredCapacity=0&MinimumCapacity=0&MaximumCapacity=0'
