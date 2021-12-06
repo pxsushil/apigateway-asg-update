@@ -3,7 +3,7 @@
 
 API to update AutoScaling group (values for min, max, and desired count as values for the mentioned autoscaling group.)
 
-Step1:- First we are creating an s3 bucket and an object (Lambda function code ) into it.
+Step1:- First we are creating an s3 bucket and an object (Lambda function code ) in it.
 For that, we have an s3 directory for Terraform code first we will deploy that.
 
 ```
@@ -15,7 +15,7 @@ Step 3:- Now we are creating policies and roles for the communication between AW
 ```
 ../Terraform $terraform apply
 ```
-Step 4:- This will give and invoke_url (Post API URL)
+Step 4:- This will give an invoke_url (Post API URL)
 
 ```
 complete_invoke_url = "https://5tbkkuk676.execute-api.us-east-1.amazonaws.com/dev/resource"
